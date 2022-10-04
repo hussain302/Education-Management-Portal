@@ -1,0 +1,78 @@
+﻿@model StudentModel
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong> Something went wrong </strong> @ViewBag.Message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
+</div>
+
+<div class="mt-5">
+    <form asp-action="CreateOrEdit" asp-controller="Student" method="post">
+
+        <input hidden="hidden" asp-for="Id" />
+
+        <div class="row">
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">First name</label>
+                <input type="text" asp-for="FirstName" class="form-control" id="exampleFormControlInput1" required placeholder="Enter First Name">
+            </div>
+
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                <input type="text" asp-for="LastName" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Last Name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-12">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="text" asp-for="Email" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Email Address">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Roll number</label>
+                <input type="text" asp-for="RollNumber" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Roll number">
+            </div>
+
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+                <input type="text" asp-for="Phone" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Phone Number">
+            </div>
+        </div>
+
+        @*<div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+            <textarea class="form-control" disabled asp-for="" placeholder="Enter Address of Student" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>*@
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Program</label>
+            <select class="form-control" asp-for="ProgramId">
+                <option value=""> - Select Program - </option>
+                @foreach (var course in ViewBag.programs)
+                {
+                    <option value="@course.Id">@course.Name</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-check">
+            <input asp-for="IsGraduated" type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"> Graducated or not? </label>
+            <small> Check it if Graducated. </small>
+        </div>
+
+        <div class="mb-3 text-center">
+            <button class="btn btn-outline-success"> Save </button>
+        </div>
+    </form>
+</div>

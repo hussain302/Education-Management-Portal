@@ -1,0 +1,45 @@
+﻿@model CoursesModel
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong> Something went wrong </strong> @ViewBag.Message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
+</div>
+
+<div class="mt-5">
+    <form asp-action="CreateOrEdit" asp-controller="Course" method="post">
+
+        <input hidden="hidden" asp-for="Id" />
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" asp-for="Name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Course Name">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1"  class="form-label">Description</label>
+            <textarea class="form-control" placeholder="Enter Details of Program" asp-for="Description" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Program</label>
+            <select class="form-control" asp-for="ProgramId"> 
+                <option value=""> - Select Program - </option>
+                @foreach (var course in ViewBag.programs)
+                {
+                    <option value="@course.Id" >@course.Name</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3 text-center">
+            <button class="btn btn-outline-success"> Save </button>
+        </div>
+    </form>
+</div>

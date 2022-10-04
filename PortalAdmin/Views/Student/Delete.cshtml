@@ -1,0 +1,76 @@
+﻿@model StudentModel
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> Manage @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
+</div>
+
+<div class="mt-5">
+    <form asp-action="Delete" method="post">
+
+        <input hidden="hidden" asp-for="Id" />
+
+        <div class="row">
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">First name</label>
+                <input type="text" disabled asp-for="FirstName" class="form-control" id="exampleFormControlInput1" required placeholder="Enter First Name">
+            </div>
+
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                <input type="text" disabled asp-for="LastName" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Last Name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-12">
+                <label for="exampleFormControlInput1" class="form-label">Roll number</label>
+                <input type="text" disabled asp-for="Email" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Email Address">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Roll number</label>
+                <input type="text" disabled asp-for="RollNumber" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Roll number">
+            </div>
+
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+                <input type="text" disabled asp-for="Phone" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Phone Number">
+            </div>
+        </div>
+
+        <div class="row">
+
+            @if (Model.IsGraduated == true)
+            {
+                <div class="mb-3 col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Graduation Status</label>
+                    <input type="text" disabled value="Graduated/Alumini" class="form-control" id="exampleFormControlInput1" placeholder="Enter Department Name">
+                </div>
+            }
+            else
+            {
+                <div class="mb-3 col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Graduation Status</label>
+                    <input type="text" disabled value="Student" class="form-control" id="exampleFormControlInput1" placeholder="Enter Department Name">
+                </div>
+            }
+
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Department</label>
+                <input type="text" disabled asp-for="Program.Name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Department Name">
+            </div>
+        </div>
+
+        @*<div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+            <textarea class="form-control" disabled placeholder="Enter Address of Student" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>*@
+
+        <div class="mb-3 text-center">
+            <button class="btn btn-outline-danger"> Delete </button>
+        </div>
+    </form>
+</div>

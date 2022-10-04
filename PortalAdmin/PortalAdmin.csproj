@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Portal.DAL\Portal.DAL.csproj" />
+    <ProjectReference Include="..\PortalInterfaces\PortalInterfaces.csproj" />
+    <ProjectReference Include="..\PortalMappers\PortalMappers.csproj" />
+    <ProjectReference Include="..\PortalModels\PortalModels.csproj" />
+    <ProjectReference Include="..\PortalRepositories\PortalRepositories.csproj" />
+  </ItemGroup>
+
+</Project>

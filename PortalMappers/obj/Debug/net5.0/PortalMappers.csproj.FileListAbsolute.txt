@@ -1,0 +1,30 @@
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalMappers.deps.json
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalMappers.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\ref\PortalMappers.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalMappers.pdb
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalModels.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalModels.pdb
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.AssemblyReference.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.AssemblyInfoInputs.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.AssemblyInfo.cs
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.CoreCompileInputs.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.CopyComplete
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\ref\PortalMappers.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalMappers.deps.json
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalMappers.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalMappers.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalModels.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\bin\Debug\net5.0\PortalModels.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.AssemblyReference.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.AssemblyInfoInputs.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.AssemblyInfo.cs
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.CoreCompileInputs.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.CopyComplete
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\refint\PortalMappers.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\ref\PortalMappers.dll

@@ -1,0 +1,65 @@
+﻿@model EmployeeModel
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> Manage @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
+</div>
+
+<div class="mt-5">
+    <form >
+        <input hidden="hidden" asp-for="Id" />
+        <div class="row">
+            <div class="col-6 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">First name</label>
+                <input type="text" disabled asp-for="FirstName" class="form-control" id="exampleFormControlInput1" placeholder="Enter First Name">
+            </div>
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                <input type="text" disabled asp-for="LastName" class="form-control" id="exampleFormControlInput1" placeholder="Enter Last Name">
+            </div>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" disabled asp-for="Email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email" required>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                <input type="text" disabled asp-for="Phone" class="form-control" value="+92-XXXXXXXXX" id="exampleFormControlInput1" placeholder="Enter Contact number">
+            </div>
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Designation</label>
+                <input type="text" disabled asp-for="Designation" class="form-control" id="exampleFormControlInput1" placeholder="Enter Designation">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Joining date</label>
+                <input type="date" disabled asp-for="JoiningDate" class="form-control" id="exampleFormControlInput1" placeholder="Enter joining date">
+            </div>
+
+            <div class="mb-3 col-6">
+                <label for="exampleFormControlInput1" class="form-label">Salary</label>
+                <input type="number" disabled min="1" asp-for="Salary" class="form-control" id="exampleFormControlInput1" placeholder="Enter Salary" required>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+            <textarea class="form-control" disabled placeholder="Enter Employee Address" asp-for="Address" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Department</label>
+            <input type="text" disabled asp-for="Department.Name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Program Name">
+        </div>
+
+        <div class="mb-3 text-center">
+            <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
+        </div>
+    </form>
+</div>

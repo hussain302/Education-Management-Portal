@@ -1,0 +1,24 @@
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\bin\Debug\net5.0\PortalModels.deps.json
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\bin\Debug\net5.0\PortalModels.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\bin\Debug\net5.0\ref\PortalModels.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\bin\Debug\net5.0\PortalModels.pdb
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.csproj.AssemblyReference.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.AssemblyInfoInputs.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.AssemblyInfo.cs
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.csproj.CoreCompileInputs.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\ref\PortalModels.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\bin\Debug\net5.0\PortalModels.deps.json
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\bin\Debug\net5.0\PortalModels.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\bin\Debug\net5.0\PortalModels.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.csproj.AssemblyReference.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.AssemblyInfoInputs.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.AssemblyInfo.cs
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.csproj.CoreCompileInputs.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\refint\PortalModels.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\ref\PortalModels.dll

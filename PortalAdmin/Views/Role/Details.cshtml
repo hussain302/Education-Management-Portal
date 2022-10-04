@@ -1,0 +1,25 @@
+﻿@model RoleModel
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> Manage @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
+</div>
+
+<div class="mt-5">
+    <form>
+        <input hidden="hidden" asp-for="Id" />
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" disabled asp-for="Name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Role Name">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+            <textarea disabled class="form-control" placeholder="Enter Details of role" asp-for="Description" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3 text-center">
+            <a asp-action="Manage" class="btn btn-outline-primary"> Back to Manage </a>
+        </div>
+    </form>
+</div>

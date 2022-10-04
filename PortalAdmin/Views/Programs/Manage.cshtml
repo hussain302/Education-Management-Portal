@@ -1,0 +1,49 @@
+﻿@model List<ProgramModel>
+
+@{
+    ViewData["Title"] = "Programs";
+}
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> Manage @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="CreateOrEdit"> Create Program <i class="fa fa-plus"></i> </a>
+</div>
+<div>
+
+    @if (Model != null)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Department</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var program in Model)
+                {
+                    <tr>
+                        <td>@program.Id</td>
+                        <td>@program.Name</td>
+                        <td>@program.Description</td>
+                        <td>@program.Department.Name</td>
+                        <td>
+                            <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@program.Id"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+                            <a class="btn btn-outline-warning btn-sm" asp-action="CreateOrEdit" asp-route-id="@program.Id"> <i class="fa fa-edit"></i> </a>
+                            <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@program.Id"> <i class="fa fa-trash"></i> </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="text-center">
+            <h1> @ViewBag.message</h1>
+        </div>
+    }
+</div>

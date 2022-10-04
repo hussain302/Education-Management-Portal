@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PortalInterfaces/1.0.0": {
+        "dependencies": {
+          "PortalModels": "1.0.0"
+        },
+        "runtime": {
+          "PortalInterfaces.dll": {}
+        }
+      },
+      "PortalModels/1.0.0": {
+        "runtime": {
+          "PortalModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PortalInterfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PortalModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

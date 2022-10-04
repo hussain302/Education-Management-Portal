@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nec4C9dKyBxILumD7ib8TC0IGi7BmKK0sUtJ/e0F04vamtfJaQdgoDY3JrmJ+BIeNh4KFLymwKZX2+8kf4gXLg==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalMappers\\PortalMappers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

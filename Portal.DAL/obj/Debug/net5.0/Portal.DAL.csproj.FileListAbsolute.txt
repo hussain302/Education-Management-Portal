@@ -1,0 +1,36 @@
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.deps.json
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.runtimeconfig.json
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.runtimeconfig.dev.json
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\ref\Portal.DAL.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.pdb
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\PortalModels.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\PortalModels.pdb
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.AssemblyReference.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.AssemblyInfoInputs.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.AssemblyInfo.cs
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.CoreCompileInputs.cache
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.CopyComplete
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\ref\Portal.DAL.dll
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.pdb
+F:\Work\C# projects\StudentPortal\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.genruntimeconfig.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.deps.json
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.runtimeconfig.json
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.runtimeconfig.dev.json
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\Portal.DAL.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\PortalModels.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\bin\Debug\net5.0\PortalModels.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.AssemblyReference.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.AssemblyInfoInputs.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.AssemblyInfo.cs
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.CoreCompileInputs.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.CopyComplete
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\refint\Portal.DAL.dll
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.pdb
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.genruntimeconfig.cache
+D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\ref\Portal.DAL.dll

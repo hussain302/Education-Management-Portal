@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin</title>
+    <environment include="Development">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-dark bg-dark container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white display-1" asp-controller="Home" asp-action="Index"> School Management System </a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <small> MENU </small><span class="navbar-toggler-icon text-white"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">School Management System</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"> </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/Dashboard"><i class="fa-solid fa-arrow-right"></i> Dashboard <i class="text-warning fa-solid fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">  <i class="fa-solid fa-arrow-right"></i> Assign Teacher To Course <i class="text-primary fa-solid fa-plus"></i> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">  <i class="fa-solid fa-arrow-right"></i> Enroll Student in Course  <i class="text-primary fa-solid fa-plus"></i>  </a>
+                            </li>
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Admins
+                                </a>
+                                <ul class=" dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" asp-action="Manage" asp-controller="User">All Admins</a></li>
+                                    <li><a class="dropdown-item" asp-action="Manage" asp-controller="Role">All Roles</a></li>
+                                    <li><a class="dropdown-item" asp-action="Register" asp-controller="User">Create Admin <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                    <li><a class="dropdown-item" asp-action="CreateOrEdit" asp-controller="Role">Create Role <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Departments
+                                </a>
+                                <ul class=" dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item " asp-action="Manage" asp-controller="Department">All Departments</a></li>
+                                    <li><a class="dropdown-item " asp-action="CreateOrEdit" asp-controller="Department">Create Department <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Programs
+                                </a>
+                                <ul class=" dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item " asp-action="Manage" asp-controller="Programs">All Programs</a></li>
+                                    <li><a class="dropdown-item " asp-action="CreateOrEdit" asp-controller="Programs">Create Program <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Students <i class="fa-solid text-success fa-user-graduate"></i>
+                                </a>
+                                <ul class=" dropdown-menu dropdown-menu-dark">
+                                    <li><a class=" dropdown-item " asp-action="Manage" asp-controller="Student">All Students</a></li>
+                                    <li><a class="dropdown-item " asp-action="CreateOrEdit" asp-controller="Student">Create Student <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Employees
+                                </a>
+                                <ul class=" dropdown-menu dropdown-menu-dark">
+                                    <li><a class=" dropdown-item " asp-action="Manage" asp-controller="Employee">All Employees</a></li>
+                                    <li><a class="dropdown-item " asp-action="CreateOrEdit" asp-controller="Employee">Create Employee <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Teacher
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" asp-action="Manage" asp-controller="Teacher">All Teachers</a></li>
+                                    <li><a class="dropdown-item" asp-action="CreateOrEdit" asp-controller="Teacher">Create Teacher <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Courses
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" asp-action="Manage" asp-controller="Course">All Courses</a></li>
+                                    <li><a class="dropdown-item" asp-action="CreateOrEdit" asp-controller="Course">Create Courses <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-arrow-right"></i> Manage Qualifications
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" asp-action="Manage" asp-controller="Qualification">All Qualification</a></li>
+                                    <li><a class="dropdown-item" asp-action="CreateOrEdit" asp-controller="Qualification">Create Qualification <i class="text-primary fa-solid fa-plus"></i></a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="Settings"> <i class="fa-solid fa-arrow-right"></i> Settings <i class="fa-solid fa-gear"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <a asp-action="Logout" class="offset-1 col-9 btn btn-danger mb-3"> Hey Hussain! <i class="fa fa-sign-out"></i> </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-3">
+        @RenderBody()
+    </div>
+    <hr />
+    <footer class="container-fluid text-center">
+        <p>&copy; @DateTime.Now.ToShortDateString() - Student Portal (Admin)</p>
+    </footer>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+            asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+            asp-fallback-test="window.jQuery"
+            crossorigin="anonymous"
+            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a9545f17e8.js" crossorigin="anonymous"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

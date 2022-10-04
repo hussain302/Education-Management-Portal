@@ -1,0 +1,51 @@
+﻿@model List<EmployeeModel>
+
+@{
+    ViewData["Title"] = "Employee";
+}
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> Manage @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="CreateOrEdit"> Create Employee <i class="fa fa-plus"></i> </a>
+</div>
+<div>
+
+    @if (Model != null)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Full name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var employee in Model)
+                {
+                    <tr>
+                        <td>@employee.Id</td>
+                        <td>@employee.FirstName, @employee.LastName</td>
+                        <td>@employee.Email</td>
+                        <td>@employee.Designation  </td>
+                        <td>@employee.Salary</td>
+                        <td>
+                            <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@employee.Id"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+                            <a class="btn btn-outline-warning btn-sm" asp-action="CreateOrEdit" asp-route-id="@employee.Id"> <i class="fa fa-edit"></i> </a>
+                            <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@employee.Id"> <i class="fa fa-trash"></i> </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="text-center">
+            <h1> @ViewBag.message</h1>
+        </div>
+    }
+</div>
