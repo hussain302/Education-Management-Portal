@@ -14,6 +14,8 @@ namespace PortalMappers.PortalMapperes
                 Id = source.Id,
                 Courses = source.Courses.ToModel(),
                 Teacher = source.Teacher.ToModel(),
+                CourseId = source.CourseId,
+                TeacherId=source.TeacherId,
             };
         }
 

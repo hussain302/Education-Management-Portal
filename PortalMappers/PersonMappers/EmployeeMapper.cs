@@ -21,7 +21,8 @@ namespace PortalMappers.PersonMappers
                 Id = source.Id,
                 LastName = source.LastName,
                 Phone = source.Phone,
-                Salary = source.Salary
+                Salary = source.Salary,
+                DepartmentId= source.DepartmentId
             };
         }
 

@@ -14,6 +14,7 @@ namespace PortalMappers.PortalMapperes
             {
                 Id = source.Id,
                 Department = source.Department.ToModel(),
+                DepartmentId= source.DepartmentId,
                 Description = source.Description,
                 Name = source.Name
             };

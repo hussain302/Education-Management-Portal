@@ -33,6 +33,7 @@ namespace PortalAdmin.Controllers
             {
                 if (response.IsApproved)
                 {
+                    TempData["message"] = "Logged in successfully!";
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -67,7 +68,7 @@ namespace PortalAdmin.Controllers
             }
             else
             {
-                ViewBag.message = "User request registed successfully - (wait for approval)";
+                TempData["message"] = "User request registed successfully - (wait for approval)";
                 service.AddUser(model.ToDb());
                 return RedirectToAction("Login");
             }

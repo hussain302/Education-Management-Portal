@@ -51,16 +51,21 @@
             <label for="exampleFormControlTextarea1" class="form-label">Address</label>
             <textarea class="form-control" disabled placeholder="Enter Address of Teacher" asp-for="Address" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Qualification</label>
-            <select class="form-control" disabled  asp-for="QualificationId">
-                <option value=""> - Select Program - </option>
-                @foreach (var course in ViewBag.qualifications)
-                {
-                    <option value="@course.Id">@course.Name</option>
-                }
-            </select>
+        <div class="row">
+            <div class="mb-3 col-7">
+                <label for="exampleFormControlTextarea1" class="form-label">Qualification</label>
+                <select class="form-control" disabled asp-for="QualificationId">
+                    <option value=""> - Select Program - </option>
+                    @foreach (var course in ViewBag.qualifications)
+                    {
+                        <option value="@course.Id">@course.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3 col-5">
+                <label for="exampleFormControlTextarea1" class="form-label">Specialized in</label>
+                <input class="form-control" disabled placeholder="Enter Specialization of Teacher" asp-for="Specialization" id="exampleFormControlTextarea1" />
+            </div>
         </div>
 
         <div class="form-check">

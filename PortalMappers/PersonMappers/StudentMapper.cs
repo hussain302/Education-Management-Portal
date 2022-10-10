@@ -19,7 +19,9 @@ namespace PortalMappers.PersonMappers
                 Phone = source.Phone,
                 IsGraduated = (bool) source.IsGraduated,
                 Program = source.Program.ToModel(),
-                RollNumber = source.RollNumber
+                RollNumber = source.RollNumber,
+                ProgramId = source.ProgramId
+
             };
         }
         public static Student ToDb(this StudentModel source)

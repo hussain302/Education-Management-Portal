@@ -13,6 +13,7 @@ namespace PortalModels.DomainModels
         public string Phone { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
+        public string Specialization { get; set; } = string.Empty;
         public bool? IsPermanent { get; set; }
 
         public int QualificationId { get; set; }

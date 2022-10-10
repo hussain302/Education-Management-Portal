@@ -2,7 +2,17 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="jumbotron bg-dark text-center text-white p-4">
-    <h1> Welcome <b>Hussain</b> - <i>Student Portal Admin Panel</i> </h1>
-    <p>You are logged in as a <b>Super Admin</b> and you have all the rights.</p>
+<div class="container-fluid">
+    @if (TempData["message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong> success: </strong> @TempData["message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="jumbotron bg-dark text-center text-white p-4">
+        <h1> Welcome <b>Hussain</b> - <i>Student Portal Admin Panel</i> </h1>
+        <p>You are logged in as a <b>Super Admin</b> and you have all the rights.</p>
+    </div>
 </div>

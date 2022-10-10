@@ -34,3 +34,21 @@ D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\re
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.pdb
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\Portal.DAL.genruntimeconfig.cache
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\Portal.DAL\obj\Debug\net5.0\ref\Portal.DAL.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\bin\Debug\net5.0\Portal.DAL.deps.json
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\bin\Debug\net5.0\Portal.DAL.runtimeconfig.json
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\bin\Debug\net5.0\Portal.DAL.runtimeconfig.dev.json
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\bin\Debug\net5.0\Portal.DAL.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\bin\Debug\net5.0\Portal.DAL.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\bin\Debug\net5.0\PortalModels.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\bin\Debug\net5.0\PortalModels.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.AssemblyReference.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.AssemblyInfoInputs.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.AssemblyInfo.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.CoreCompileInputs.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.csproj.CopyComplete
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\ref\Portal.DAL.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\Portal.DAL.genruntimeconfig.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\Portal.DAL\obj\Debug\net5.0\refint\Portal.DAL.dll

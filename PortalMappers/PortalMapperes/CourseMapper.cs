@@ -16,7 +16,8 @@ namespace PortalMappers.PortalMapperes
                 CreditHours= source.CreditHours,
                 Description= source.Description,
                 Name= source.Name,
-                Program = source.Program.ToModel()
+                Program = source.Program.ToModel(),
+                ProgramId = source.ProgramId
             };
         }
         public static Courses ToDb(this CoursesModel source)

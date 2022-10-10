@@ -22,3 +22,15 @@ D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\refint\PortalModels.dll
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\PortalModels.pdb
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalModels\obj\Debug\net5.0\ref\PortalModels.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\bin\Debug\net5.0\PortalModels.deps.json
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\bin\Debug\net5.0\PortalModels.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\bin\Debug\net5.0\PortalModels.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\PortalModels.csproj.AssemblyReference.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\PortalModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\PortalModels.AssemblyInfoInputs.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\PortalModels.AssemblyInfo.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\PortalModels.csproj.CoreCompileInputs.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\PortalModels.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\ref\PortalModels.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\PortalModels.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalModels\obj\Debug\net5.0\refint\PortalModels.dll

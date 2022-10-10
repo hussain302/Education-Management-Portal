@@ -19,7 +19,9 @@ namespace PortalMappers.PersonMappers
                 LastName = source.LastName,
                 Phone = source.Phone,
                 Qualification = source.Qualification.ToModel(),
-                TeacherCode = source.TeacherCode
+                TeacherCode = source.TeacherCode,
+                QualificationId = source.QualificationId,
+                Specialization = source.Specialization
             };
         }
 
@@ -35,7 +37,8 @@ namespace PortalMappers.PersonMappers
                 LastName = source.LastName,
                 Phone = source.Phone,
                 QualificationId = source.QualificationId,
-                TeacherCode = source.TeacherCode
+                TeacherCode = source.TeacherCode,
+                Specialization = source.Specialization
             };
         }
 

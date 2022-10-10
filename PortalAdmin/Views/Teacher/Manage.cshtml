@@ -21,6 +21,7 @@
                     <th>Phone</th>
                     <th>Permanent</th>
                     <th>Qualification</th>
+                    <th>Specialized</th>
                     <th>Options</th>
                 </tr>
             </thead>
@@ -41,6 +42,7 @@
                             <td>Visiting</td>
                         }
                         <td>@teacher.Qualification.Name</td>
+                        <td>@teacher.Specialization</td>
                         <td>
                             <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@teacher.Id"> <i class="fa-solid fa-magnifying-glass"></i> </a>
                             <a class="btn btn-outline-warning btn-sm" asp-action="CreateOrEdit" asp-route-id="@teacher.Id"> <i class="fa fa-edit"></i> </a>

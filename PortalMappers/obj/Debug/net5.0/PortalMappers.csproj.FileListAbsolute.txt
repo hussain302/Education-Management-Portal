@@ -28,3 +28,18 @@ D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\refint\PortalMappers.dll
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\PortalMappers.pdb
 D:\Work\MCS\FYP\EIMS\University Portal\Portal.DAL\PortalMappers\obj\Debug\net5.0\ref\PortalMappers.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\bin\Debug\net5.0\PortalMappers.deps.json
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\bin\Debug\net5.0\PortalMappers.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\bin\Debug\net5.0\PortalMappers.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\bin\Debug\net5.0\PortalModels.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\bin\Debug\net5.0\PortalModels.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.AssemblyReference.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.AssemblyInfoInputs.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.AssemblyInfo.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.CoreCompileInputs.cache
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.csproj.CopyComplete
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\ref\PortalMappers.dll
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\PortalMappers.pdb
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalMappers\obj\Debug\net5.0\refint\PortalMappers.dll

@@ -19,6 +19,7 @@ namespace PortalMappers.UserMappers
                 Password = source.Password,
                 Phone = source.Phone,
                 Role = source.Role.ToModel(),
+                RoleId = source.RoleId,
                 SecurityAnswer = source.SecurityAnswer,
                 SecurityQuestion = source.SecurityQuestion,
                 IsApproved = source.IsApproved

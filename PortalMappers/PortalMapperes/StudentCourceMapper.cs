@@ -15,6 +15,8 @@ namespace PortalMappers.PortalMapperes
             return new StudentCourseModel
             {
                 Id = source.Id,
+                CourseId = source.CourseId,
+                StudentId= source.StudentId,
                 Courses = source.Courses.ToModel(),
                 Student = source.Student.ToModel(),
             };

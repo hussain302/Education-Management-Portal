@@ -79,8 +79,10 @@ namespace PortalAdmin.Controllers
         }
         public IActionResult Delete(int id)
         {
+            ViewBag.qualifications = qualificationService.GetQualifications().Select(x => x.ToModel()).ToList();
+
             ViewData["Title"] = "Delete Teacher";
-            return View(qualificationService.GetQualification(id).ToModel());
+            return View(teacherService.GetTeacher(id).ToModel());
         }
         [HttpPost]
         public IActionResult Delete(CoursesModel model)
@@ -95,6 +97,8 @@ namespace PortalAdmin.Controllers
         }
         public IActionResult Details(int id)
         {
+            ViewBag.qualifications = qualificationService.GetQualifications().Select(x => x.ToModel()).ToList();
+
             ViewData["Title"] = "Teacher Details";
             return View(teacherService.GetTeacher(id).ToModel());
         }

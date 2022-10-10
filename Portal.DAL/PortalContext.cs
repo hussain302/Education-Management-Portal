@@ -26,7 +26,7 @@ namespace Portal.DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=HUSSAIN\\HACK3R; Initial Catalog=StudentPortalDemoDB; Trusted_Connection=true;");
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=HUSSAIN\\SQLEXPRESS; Initial Catalog=EIMS_DB; Trusted_Connection=true;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

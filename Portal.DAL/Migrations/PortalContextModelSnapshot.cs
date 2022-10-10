@@ -200,9 +200,6 @@ namespace Portal.DAL.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -288,6 +285,9 @@ namespace Portal.DAL.Migrations
 
                     b.Property<int>("QualificationId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Specialization")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TeacherCode")
                         .HasColumnType("nvarchar(max)");

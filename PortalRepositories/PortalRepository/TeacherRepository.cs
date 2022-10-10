@@ -37,7 +37,7 @@ namespace PortalRepositories.PortalRepository
         {
             try
             {
-                return context.Teachers.Find(teacherId);
+                return context.Teachers.Include(x => x.Qualification).Where(x => x.Id == teacherId).FirstOrDefault();
             }
             catch
             {

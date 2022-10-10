@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8TjeuhxqUZETFPAvOWYFLJJeooX3+lwm35e5eyNzzLUZD09tE8oUNoqtufR9fipe0eOdo8lyakeoVM1W3odJVw==",
+  "dgSpecHash": "jgNDTtKNlFHAxI8C0ODmtx71GYiLKqMovGZORmPs6m2bCjyIaQlHkYoKfWoawnw606s5dLLG9oJLl8Qt6W4dvw==",
   "success": true,
-  "projectFilePath": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalModels\\PortalModels.csproj",
+  "projectFilePath": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\PortalModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

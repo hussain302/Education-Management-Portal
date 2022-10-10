@@ -16,7 +16,7 @@ namespace PortalMappers.PortalMapperes
                 Designation = source.Designation,
                 Details = source.Details,
                 SalaryBraket = source.SalaryBraket,
-                Title = source.Title,
+                Title = source.Title
             };
         }
         public static Job ToDb(this JobModel source)

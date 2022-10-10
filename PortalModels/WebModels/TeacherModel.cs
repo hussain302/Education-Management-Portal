@@ -14,7 +14,7 @@ namespace PortalModels.WebModels
         public string Email { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
         public bool IsPermanent { get; set; }
-
+        public string Specialization { get; set; } = string.Empty;
         public int QualificationId { get; set; }
         public virtual QualificationModel Qualification { get; set; }
 

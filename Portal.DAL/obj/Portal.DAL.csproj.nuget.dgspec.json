@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\Portal.DAL\\Portal.DAL.csproj": {}
+    "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\Portal.DAL\\Portal.DAL.csproj": {}
   },
   "projects": {
-    "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\Portal.DAL\\Portal.DAL.csproj": {
+    "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\Portal.DAL\\Portal.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\Portal.DAL\\Portal.DAL.csproj",
+        "projectUniqueName": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\Portal.DAL\\Portal.DAL.csproj",
         "projectName": "Portal.DAL",
-        "projectPath": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\Portal.DAL\\Portal.DAL.csproj",
-        "packagesPath": "C:\\Users\\RBTG V2\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\Portal.DAL\\obj\\",
+        "projectPath": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\Portal.DAL\\Portal.DAL.csproj",
+        "packagesPath": "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\",
+        "outputPath": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\Portal.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\RBTG V2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammad.Hussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalModels\\PortalModels.csproj": {
-                "projectPath": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalModels\\PortalModels.csproj"
+              "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\PortalModels.csproj": {
+                "projectPath": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\PortalModels.csproj"
               }
             }
           }
@@ -54,6 +56,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[5.0.17, )"
             },
@@ -79,20 +85,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -102,20 +94,21 @@
         }
       }
     },
-    "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalModels\\PortalModels.csproj": {
+    "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\PortalModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalModels\\PortalModels.csproj",
+        "projectUniqueName": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\PortalModels.csproj",
         "projectName": "PortalModels",
-        "projectPath": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalModels\\PortalModels.csproj",
-        "packagesPath": "C:\\Users\\RBTG V2\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\MCS\\FYP\\EIMS\\University Portal\\Portal.DAL\\PortalModels\\obj\\",
+        "projectPath": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\PortalModels.csproj",
+        "packagesPath": "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\",
+        "outputPath": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\RBTG V2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammad.Hussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,6 +116,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
