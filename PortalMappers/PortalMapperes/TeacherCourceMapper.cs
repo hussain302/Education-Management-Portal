@@ -27,7 +27,7 @@ namespace PortalMappers.PortalMapperes
                 Id = source.Id,
                 Courses = source.Courses.ToDb(),
                 Teacher = source.Teacher.ToDb(),
-               // CourseId = Convert.ToInt32(source.CourseId),
+                //CourseId = Convert.ToInt32(source.CourseId),
                 //TeacherId = Convert.ToInt32(source.TeacherId),
             };
         }
