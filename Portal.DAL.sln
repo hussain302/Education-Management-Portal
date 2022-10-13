@@ -1,19 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32802.440
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.DAL", "Portal.DAL\Portal.DAL.csproj", "{6A55F4B8-5BEC-4F5E-BA15-48DEDD94B76C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.DAL", "Portal.DAL\Portal.DAL.csproj", "{6A55F4B8-5BEC-4F5E-BA15-48DEDD94B76C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalMappers", "PortalMappers\PortalMappers.csproj", "{123630B3-7A47-424D-93F7-DE938C6FFEC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalMappers", "PortalMappers\PortalMappers.csproj", "{123630B3-7A47-424D-93F7-DE938C6FFEC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalModels", "PortalModels\PortalModels.csproj", "{1827852A-138B-450A-9662-F57B3966D871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalModels", "PortalModels\PortalModels.csproj", "{1827852A-138B-450A-9662-F57B3966D871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalInterfaces", "PortalInterfaces\PortalInterfaces.csproj", "{418BA5EA-42A2-4C86-B700-A4A8830DC0A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalInterfaces", "PortalInterfaces\PortalInterfaces.csproj", "{418BA5EA-42A2-4C86-B700-A4A8830DC0A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalRepositories", "PortalRepositories\PortalRepositories.csproj", "{E203E5DB-63B9-4BF2-8856-9FB6851E3511}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalRepositories", "PortalRepositories\PortalRepositories.csproj", "{E203E5DB-63B9-4BF2-8856-9FB6851E3511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalAdmin", "PortalAdmin\PortalAdmin.csproj", "{A189323A-3FB2-48EF-9C03-F5138EB3FD26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalAdmin", "PortalAdmin\PortalAdmin.csproj", "{A189323A-3FB2-48EF-9C03-F5138EB3FD26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIMiddlewares", "APIMiddlewares\APIMiddlewares.csproj", "{9E0C6443-A4E4-4F19-9786-115C4F11542A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A189323A-3FB2-48EF-9C03-F5138EB3FD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A189323A-3FB2-48EF-9C03-F5138EB3FD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A189323A-3FB2-48EF-9C03-F5138EB3FD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0C6443-A4E4-4F19-9786-115C4F11542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0C6443-A4E4-4F19-9786-115C4F11542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0C6443-A4E4-4F19-9786-115C4F11542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0C6443-A4E4-4F19-9786-115C4F11542A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

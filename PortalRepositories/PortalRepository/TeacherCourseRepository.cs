@@ -23,6 +23,8 @@ namespace PortalRepositories.PortalRepository
             try
             {
                 if (newModel == null) return false;
+                context.Entry(newModel.Courses).State = EntityState.Unchanged;
+                context.Entry(newModel.Teacher).State = EntityState.Unchanged;
                 context.Add<TeacherCourse>(newModel);
                 context.SaveChanges();
                 return true;
@@ -53,8 +55,8 @@ namespace PortalRepositories.PortalRepository
         {
             try
             {
-                return context.TeacherCourses.Where(x => x.Id == idToSearch)
-                    .Include(x => x.Teacher).Include(x => x.Courses).FirstOrDefault();
+                return context.TeacherCourses.Where(x => x.Id == idToSearch).Include(x => x.Courses)
+                    .Include(x => x.Teacher).FirstOrDefault();
             }
             catch
             {
@@ -93,7 +95,8 @@ namespace PortalRepositories.PortalRepository
         {
             try
             {
-                return context.TeacherCourses.Include(x => x.Teacher).Include(x => x.Courses).ToList();
+                var find = context.TeacherCourses.Include(x => x.Courses).Include(x => x.Teacher).ToList();
+                return find;
             }
             catch
             {
@@ -124,6 +127,8 @@ namespace PortalRepositories.PortalRepository
             try
             {
                 if (newModel == null) return false;
+                context.Entry(newModel.Courses).State = EntityState.Unchanged;
+                context.Entry(newModel.Teacher).State = EntityState.Unchanged;
                 context.Update<TeacherCourse>(newModel);
                 context.SaveChanges();
                 return true;

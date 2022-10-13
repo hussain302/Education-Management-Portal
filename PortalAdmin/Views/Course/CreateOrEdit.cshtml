@@ -37,7 +37,10 @@
                 }
             </select>
         </div>
-
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Credit Hours</label>
+            <input type="number" required min="0" max="6" asp-for="CreditHours" class="form-control" id="exampleFormControlInput1" placeholder="Enter Course Credit Hours">
+        </div>
         <div class="mb-3 text-center">
             <button class="btn btn-outline-success"> Save </button>
         </div>

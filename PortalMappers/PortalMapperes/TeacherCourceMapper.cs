@@ -1,6 +1,7 @@
 ﻿using PortalMappers.PersonMappers;
 using PortalModels.DomainModels;
 using PortalModels.WebModels;
+using System;
 
 namespace PortalMappers.PortalMapperes
 {
@@ -14,8 +15,8 @@ namespace PortalMappers.PortalMapperes
                 Id = source.Id,
                 Courses = source.Courses.ToModel(),
                 Teacher = source.Teacher.ToModel(),
-                CourseId = source.CourseId,
-                TeacherId=source.TeacherId,
+                //CourseId = source.CourseId,
+                //TeacherId=source.TeacherId,
             };
         }
 
@@ -24,8 +25,10 @@ namespace PortalMappers.PortalMapperes
             return new TeacherCourse
             {
                 Id = source.Id,
-                CourseId = source.CourseId,
-                TeacherId = source.TeacherId,
+                Courses = source.Courses.ToDb(),
+                Teacher = source.Teacher.ToDb(),
+               // CourseId = Convert.ToInt32(source.CourseId),
+                //TeacherId = Convert.ToInt32(source.TeacherId),
             };
         }
 

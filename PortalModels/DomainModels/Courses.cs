@@ -17,5 +17,9 @@ namespace PortalModels.DomainModels
 
         public int ProgramId { get; set; }
         public virtual Program Program { get; set; }
+
+        public virtual ICollection<TeacherCourse> TeacherCourses { get; set; }
+        public virtual ICollection<StudentCourse> StudentCourses { get; set; }
+
     }
 }

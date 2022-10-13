@@ -15,8 +15,8 @@ namespace PortalMappers.PortalMapperes
             return new StudentCourseModel
             {
                 Id = source.Id,
-                CourseId = source.CourseId,
-                StudentId= source.StudentId,
+                //CourseId = source.CourseId,
+                //StudentId= source.StudentId,
                 Courses = source.Courses.ToModel(),
                 Student = source.Student.ToModel(),
             };
@@ -27,8 +27,10 @@ namespace PortalMappers.PortalMapperes
             return new StudentCourse
             {
                 Id = source.Id,
-                CourseId = source.CourseId,
-                StudentId = source.StudentId,
+                Courses = source.Courses.ToDb(),
+                Student = source.Student.ToDb(),
+                //CourseId = source.CourseId,
+                //StudentId = source.StudentId,
             };
         }
 

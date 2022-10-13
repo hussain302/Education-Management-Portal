@@ -1,0 +1,56 @@
+﻿@model List<TeacherCourseModel>
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="CreateOrEdit"> Create Record <i class="fa fa-plus"></i> </a>
+</div>
+
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong> Error: </strong> @ViewBag.message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div>
+
+    @if (Model != null)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Course Program</th>
+                    <th>Teacher</th>
+                    <th>Teacher Email</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        
+                        <td>@item.Courses.Name</td>
+                        <td>@item.Courses.Program.Name</td>
+                        <td>@item.Teacher.FirstName, @item.Teacher.LastName</td>
+                        <td>@item.Teacher.Email</td>
+                        <td>
+                            <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@item.Id"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+                            <a class="btn btn-outline-warning btn-sm" asp-action="CreateOrEdit" asp-route-id="@item.Id"> <i class="fa fa-edit"></i> </a>
+                            <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id"> <i class="fa fa-trash"></i> </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="text-center">
+            <h1> @ViewBag.message</h1>
+        </div>
+    }
+</div>

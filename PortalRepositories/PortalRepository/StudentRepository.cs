@@ -39,7 +39,7 @@ namespace PortalRepositories.PortalRepository
         {
             try
             {
-                return context.Students.Include(x => x.Program).Include(x=>x.Program.Department).FirstOrDefault();
+                return context.Students.Include(x => x.Program).Include(x=>x.Program.Department).Where(x=>x.Id == studentId).FirstOrDefault();
             }
             catch
             {

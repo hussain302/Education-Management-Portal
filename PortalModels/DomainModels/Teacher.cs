@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 namespace PortalModels.DomainModels
 {
     public class Teacher
@@ -18,6 +19,8 @@ namespace PortalModels.DomainModels
 
         public int QualificationId { get; set; }
         public virtual Qualification Qualification { get; set; }
+
+        public virtual ICollection<TeacherCourse> TeacherCourses { get; set; }
 
     }
 }

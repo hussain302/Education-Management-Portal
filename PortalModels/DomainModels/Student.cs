@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace PortalModels.DomainModels
@@ -27,5 +28,7 @@ namespace PortalModels.DomainModels
     
         public int ProgramId { get; set; }
         public virtual Program Program { get; set; }
+
+        public virtual ICollection<StudentCourse> StudentCourses { get; set; }
     }
 }   

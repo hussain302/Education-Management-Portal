@@ -10,8 +10,8 @@ using Portal.DAL;
 namespace Portal.DAL.Migrations
 {
     [DbContext(typeof(PortalContext))]
-    [Migration("20221010095855_teachingedit")]
-    partial class teachingedit
+    [Migration("20221013084934_InitCreate")]
+    partial class InitCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -240,9 +240,6 @@ namespace Portal.DAL.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CourseId")
-                        .HasColumnType("int");
-
                     b.Property<int?>("CoursesId")
                         .HasColumnType("int");
 
@@ -307,9 +304,6 @@ namespace Portal.DAL.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("CourseId")
-                        .HasColumnType("int");
 
                     b.Property<int?>("CoursesId")
                         .HasColumnType("int");
@@ -416,11 +410,11 @@ namespace Portal.DAL.Migrations
             modelBuilder.Entity("PortalModels.DomainModels.StudentCourse", b =>
                 {
                     b.HasOne("PortalModels.DomainModels.Courses", "Courses")
-                        .WithMany()
+                        .WithMany("StudentCourses")
                         .HasForeignKey("CoursesId");
 
                     b.HasOne("PortalModels.DomainModels.Student", "Student")
-                        .WithMany()
+                        .WithMany("StudentCourses")
                         .HasForeignKey("StudentId");
 
                     b.Navigation("Courses");
@@ -442,11 +436,11 @@ namespace Portal.DAL.Migrations
             modelBuilder.Entity("PortalModels.DomainModels.TeacherCourse", b =>
                 {
                     b.HasOne("PortalModels.DomainModels.Courses", "Courses")
-                        .WithMany()
+                        .WithMany("TeacherCourses")
                         .HasForeignKey("CoursesId");
 
                     b.HasOne("PortalModels.DomainModels.Teacher", "Teacher")
-                        .WithMany()
+                        .WithMany("TeacherCourses")
                         .HasForeignKey("TeacherId");
 
                     b.Navigation("Courses");
@@ -463,6 +457,23 @@ namespace Portal.DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("PortalModels.DomainModels.Courses", b =>
+                {
+                    b.Navigation("StudentCourses");
+
+                    b.Navigation("TeacherCourses");
+                });
+
+            modelBuilder.Entity("PortalModels.DomainModels.Student", b =>
+                {
+                    b.Navigation("StudentCourses");
+                });
+
+            modelBuilder.Entity("PortalModels.DomainModels.Teacher", b =>
+                {
+                    b.Navigation("TeacherCourses");
                 });
 #pragma warning restore 612, 618
         }

@@ -26,12 +26,43 @@ namespace Portal.DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=HUSSAIN\\SQLEXPRESS; Initial Catalog=EIMS_DB; Trusted_Connection=true;");
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=HUSSAIN\\SQLEXPRESS; Initial Catalog=New_EIMS_DB; Trusted_Connection=true;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+
+            //modelBuilder.Entity<TeacherCourse>()
+            //.HasKey(bc => new { bc.TeacherId, bc.CourseId });
+
+            //modelBuilder.Entity<TeacherCourse>()
+            //    .HasOne(bc => bc.Teacher)
+            //    .WithMany(b => b.TeacherCourses)
+            //    .HasForeignKey(bc => bc.TeacherId).OnDelete(DeleteBehavior.Cascade); ;
+
+            //modelBuilder.Entity<TeacherCourse>()
+            //    .HasOne(bc => bc.Courses)
+            //    .WithMany(c => c.TeacherCourses)
+            //    .HasForeignKey(bc => bc.CourseId).OnDelete(DeleteBehavior.Cascade); ;
+
+
+            //modelBuilder.Entity<StudentCourse>()
+            //.HasKey(bc => new { bc.StudentId, bc.CourseId });
+
+            //modelBuilder.Entity<StudentCourse>()
+            //    .HasOne(bc => bc.Student)
+            //    .WithMany(b => b.StudentCourses)
+            //    .HasForeignKey(bc => bc.StudentId).OnDelete(DeleteBehavior.Cascade);
+
+            //modelBuilder.Entity<StudentCourse>()
+            //    .HasOne(bc => bc.Courses)
+            //    .WithMany(c => c.StudentCourses)
+            //    .HasForeignKey(bc => bc.CourseId).OnDelete(DeleteBehavior.Cascade);
+            //    ;
+
+
         }
     }
 }

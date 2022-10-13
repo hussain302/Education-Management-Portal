@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jgNDTtKNlFHAxI8C0ODmtx71GYiLKqMovGZORmPs6m2bCjyIaQlHkYoKfWoawnw606s5dLLG9oJLl8Qt6W4dvw==",
+  "dgSpecHash": "0WO8aMuVFeAQOeof7Lm5ZrJtd1TEiFFXCOwUxyHT0JZ3vT3hwfynFvfPzYLMIHP9H3PGGlnz5IqcztpIEtz3rg==",
   "success": true,
   "projectFilePath": "C:\\Practices\\Dotnet Practices\\FYP Project EIMS - Dotnet 5\\FYP---EIMS\\PortalModels\\PortalModels.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Muhammad.Hussain\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

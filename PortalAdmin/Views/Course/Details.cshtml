@@ -1,7 +1,7 @@
 ﻿@model CoursesModel
 
 <div class="jumbotron bg-dark text-center text-white p-4">
-    <h1> Manage @ViewData["Title"] </h1>
+    <h1> @ViewData["Title"] </h1>
     <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
 </div>
 
@@ -30,6 +30,11 @@
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Description</label>
             <textarea disabled class="form-control" placeholder="Enter Details of Course" asp-for="Description" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Credit Hours</label>
+            <input type="number" disabled min="0" max="6" required asp-for="CreditHours" class="form-control" id="exampleFormControlInput1" placeholder="Enter Course Credit Hours">
         </div>
 
         <div class="mb-3 text-center">

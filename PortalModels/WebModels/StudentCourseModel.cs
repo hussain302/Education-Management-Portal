@@ -11,10 +11,10 @@ namespace PortalModels.WebModels
         [Key]
         public int Id { get; set; }
 
-        public int? StudentId { get; set; }
+        //public int? StudentId { get; set; }
         public virtual StudentModel Student { get; set; }
 
-        public int? CourseId { get; set; }
+       // public int? CourseId { get; set; }
         public virtual CoursesModel Courses { get; set; }
 
 
