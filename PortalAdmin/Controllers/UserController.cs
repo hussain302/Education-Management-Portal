@@ -20,6 +20,8 @@ namespace PortalAdmin.Controllers
             this.roleService = roleService;
         }
 
+
+        [ResponseCache(Location = ResponseCacheLocation.Client, VaryByHeader = "User-Agent", Duration = 3600)]
         public IActionResult Login()
         {
             return View();

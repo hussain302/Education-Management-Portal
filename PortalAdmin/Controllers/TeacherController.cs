@@ -31,7 +31,7 @@ namespace PortalAdmin.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet]        
         public IActionResult CreateOrEdit(int? id)
         {
             ViewBag.qualifications = qualificationService.GetQualifications().Select(x => x.ToModel()).ToList();

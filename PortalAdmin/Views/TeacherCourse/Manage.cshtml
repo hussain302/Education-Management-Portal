@@ -14,43 +14,28 @@
     </div>
 }
 
-<div>
+<div class="container m-3">
+    <div class="row mt-2">
+        @foreach (var item in Model)
+        {
+            <div class="col-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body p-2">
+                        <h5 class="card-title"><b> Course Name:</b>@item.Courses.Name </h5>
+                        <p class="card-text"> <b>Cr.hr:</b> @item.Courses.CreditHours</p>
+                        <p class="card-text"><b>Program:</b> @item.Courses.Program.Name</p>
 
-    @if (Model != null)
-    {
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Course</th>
-                    <th>Course Program</th>
-                    <th>Teacher</th>
-                    <th>Teacher Email</th>
-                    <th>Options</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        
-                        <td>@item.Courses.Name</td>
-                        <td>@item.Courses.Program.Name</td>
-                        <td>@item.Teacher.FirstName, @item.Teacher.LastName</td>
-                        <td>@item.Teacher.Email</td>
-                        <td>
+                        <h5 class="card-title">Teacher Name: </h5>
+                        <p class="card-text">@item.Teacher.FirstName, @item.Teacher.LastName</p>
+                        <p class="card-text"><b>Contact info :</b> @item.Teacher.Email, @item.Teacher.Phone</p>
+                        <div>
                             <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@item.Id"> <i class="fa-solid fa-magnifying-glass"></i> </a>
                             <a class="btn btn-outline-warning btn-sm" asp-action="CreateOrEdit" asp-route-id="@item.Id"> <i class="fa fa-edit"></i> </a>
                             <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id"> <i class="fa fa-trash"></i> </a>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    }
-    else
-    {
-        <div class="text-center">
-            <h1> @ViewBag.message</h1>
-        </div>
-    }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

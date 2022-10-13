@@ -57,7 +57,6 @@ namespace PortalAdmin.Controllers
             }
         }
 
-
         [HttpPost]
         public IActionResult CreateOrEdit(TeacherCourseModel model)
         {
@@ -92,5 +91,57 @@ namespace PortalAdmin.Controllers
                 return RedirectToAction(nameof(Manage));
             }
         }
+        
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            ViewBag.courses = courseService.GetCourses().Select(x => x.ToModel()).ToList();
+            ViewBag.teachers = teacherService.GetTeachers().Select(x => x.ToModel()).ToList();
+
+            //Delete Record
+            ViewData["Title"] = "Delete Record";
+            return View(mainService.GetTeacherCourse(Convert.ToInt32(id)).ToModel());
+        }
+
+        [HttpPost]
+        public IActionResult Delete(TeacherCourseModel model)
+        {
+            try
+            {
+                if (model.Id > 0)
+                {
+                    //Edit Record
+                    var response = mainService.DeleteTeacherCourse(model.Id);
+                    if (response)
+                    {
+                        ViewBag.Message = "Record Deleted Successfully!";
+                        return RedirectToAction(nameof(Manage));
+                    }
+                    else
+                    {
+                        ViewBag.Message = "Record didn't Deleted!";
+                        return RedirectToAction(nameof(Manage));
+                    }
+                }                
+            }
+            catch
+            {
+                ViewBag.message = "Record didnt Deleted!";
+                return RedirectToAction(nameof(Manage));
+            }
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult Details(int? id)
+        {
+            ViewBag.courses = courseService.GetCourses().Select(x => x.ToModel()).ToList();
+            ViewBag.teachers = teacherService.GetTeachers().Select(x => x.ToModel()).ToList();
+
+            //Delete Record
+            ViewData["Title"] = "Details Record";
+            return View(mainService.GetTeacherCourse(Convert.ToInt32(id)).ToModel());
+        }
+
     }
 }

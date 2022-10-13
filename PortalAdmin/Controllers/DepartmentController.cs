@@ -16,6 +16,7 @@ namespace PortalAdmin.Controllers
             this.service = service;
         }
 
+        
         public IActionResult Manage()
         {
             var modelList = service.GetDepartments().Select(x => x.ToModel()).ToList();

@@ -352,3 +352,5 @@ C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin
 C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\TeacherCourse\Manage.cshtml.g.cs
 C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\TeacherCourse\CreateOrEdit.cshtml.g.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\TeacherCourse\Delete.cshtml.g.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\TeacherCourse\Details.cshtml.g.cs

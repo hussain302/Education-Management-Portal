@@ -9,14 +9,14 @@ namespace PortalInterfaces.IPortalRepositories
     public interface IStudentCourseRepository
     {
         bool AddStudentCourse(StudentCourse newModel);
-        List<StudentCourse> GetTeachersCourses();
+        List<StudentCourse> GetStudentCourses();
         StudentCourse GetStudentCourse(int idToSearch);
-        List<StudentCourse> GetStudentCourse(Teacher teacher);
+        List<StudentCourse> GetStudentCourse(Student student);
         List<StudentCourse> GetStudentCourse(Courses course);
         bool UpdateStudentCourse(StudentCourse newModel);
-        bool DeleteStudentCourse();
+        bool DeleteStudentCourse(int id);
 
         List<StudentCourse> GetTeachersCourses(Expression<Func<StudentCourse, bool>> filter = null, Func<IQueryable<StudentCourse>, IOrderedQueryable<StudentCourse>> orderBy = null, params Expression<Func<StudentCourse, object>>[] includes);
-        IEnumerable<StudentCourse> GetTeachersCourses(Expression<Func<StudentCourse, bool>> filter = null, Func<IQueryable<StudentCourse>, IOrderedQueryable<StudentCourse>> orderBy = null);
+       //IEnumerable<StudentCourse> GetTeachersCourses(Expression<Func<StudentCourse, bool>> filter = null, Func<IQueryable<StudentCourse>, IOrderedQueryable<StudentCourse>> orderBy = null);
     }
 }
