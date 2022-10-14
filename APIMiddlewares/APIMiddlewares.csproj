@@ -9,7 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PortalInterfaces\PortalInterfaces.csproj" />
+    <ProjectReference Include="..\PortalMappers\PortalMappers.csproj" />
     <ProjectReference Include="..\PortalModels\PortalModels.csproj" />
+    <ProjectReference Include="..\PortalRepositories\PortalRepositories.csproj" />
   </ItemGroup>
 
 </Project>
