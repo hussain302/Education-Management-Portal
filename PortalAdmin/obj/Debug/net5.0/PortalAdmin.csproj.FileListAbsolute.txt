@@ -354,3 +354,7 @@ C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin
 C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\TeacherCourse\CreateOrEdit.cshtml.g.cs
 C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\TeacherCourse\Delete.cshtml.g.cs
 C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\TeacherCourse\Details.cshtml.g.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\StudentCourse\CreateOrEdit.cshtml.g.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\StudentCourse\Delete.cshtml.g.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\StudentCourse\Details.cshtml.g.cs
+C:\Practices\Dotnet Practices\FYP Project EIMS - Dotnet 5\FYP---EIMS\PortalAdmin\obj\Debug\net5.0\Razor\Views\StudentCourse\Manage.cshtml.g.cs

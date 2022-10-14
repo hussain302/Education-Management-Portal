@@ -40,6 +40,7 @@ namespace PortalAdmin
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<ITeacherCourseRepostory, TeacherCourseRepository>();
+            services.AddScoped<IStudentCourseRepository, StudentCourseRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

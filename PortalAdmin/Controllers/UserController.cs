@@ -20,6 +20,17 @@ namespace PortalAdmin.Controllers
             this.roleService = roleService;
         }
 
+        [HttpGet]
+        public IActionResult Manage()
+        {
+            var modelList = service.GetUsers().Select(x => x.ToModel()).ToList();
+            if (modelList.Count > 0) return View(modelList);
+            else
+            {
+                ViewBag.message = "No User found!";
+                return View();
+            }
+        }
 
         [ResponseCache(Location = ResponseCacheLocation.Client, VaryByHeader = "User-Agent", Duration = 3600)]
         public IActionResult Login()
@@ -52,7 +63,6 @@ namespace PortalAdmin.Controllers
             }
         }
 
-
         public IActionResult Register()
         {
             return View();
@@ -73,19 +83,6 @@ namespace PortalAdmin.Controllers
                 TempData["message"] = "User request registed successfully - (wait for approval)";
                 service.AddUser(model.ToDb());
                 return RedirectToAction("Login");
-            }
-        }
-
-
-        [HttpGet]
-        public IActionResult Manage()
-        {
-            var modelList = service.GetUsers().Select(x => x.ToModel()).ToList();
-            if (modelList.Count > 0) return View(modelList);
-            else
-            {
-                ViewBag.message = "No User found!";
-                return View();
             }
         }
 

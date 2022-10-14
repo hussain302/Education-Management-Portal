@@ -1,0 +1,42 @@
+﻿@model StudentCourseModel
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="Manage"> Back to Manage <i class="fa fa-arrow-left"></i> </a>
+</div>
+
+
+
+<div class="mt-5">
+    <form asp-action="Delete" method="post">
+
+        <input hidden="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Courses</label>
+            <select disabled class="form-control" asp-for="Courses.Id">
+                <option value=""> - Select Course - </option>
+                @foreach (var dept in ViewBag.courses)
+                {
+                    <option value="@dept.Id">@dept.Name</option>
+                }
+            </select>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Student</label>
+            <select disabled class="form-control" asp-for="Student.Id">
+                <option value=""> - Select Student - </option>
+                @foreach (var dept in ViewBag.students)
+                {
+                    <option value="@dept.Id"> @dept.RollNumber : @dept.FirstName, @dept.LastName, @dept.Program.Name  </option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3 text-center">
+            <button class="btn btn-outline-danger"> Delete </button>
+        </div>
+    </form>
+</div>

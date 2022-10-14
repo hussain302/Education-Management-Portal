@@ -1,0 +1,41 @@
+﻿@model List<StudentCourseModel>
+
+<div class="jumbotron bg-dark text-center text-white p-4">
+    <h1> @ViewData["Title"] </h1>
+    <a class="btn btn-outline-success mt-2" asp-action="CreateOrEdit"> Create Record <i class="fa fa-plus"></i> </a>
+</div>
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show m-2" role="alert">
+        <strong> Something went wrong </strong> @TempData["message"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container m-3">
+    <div class="row mt-2">
+        @foreach (var item in Model)
+        {
+            <div class="col-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body p-2">
+                        <h5 class="card-title"><b> Course Name:</b>@item.Courses.Name </h5>
+                        <p class="card-text"> <b>Cr.hr:</b> @item.Courses.CreditHours</p>
+                        <p class="card-text"><b>Program:</b> @item.Courses.Program.Name</p>
+
+                        <h5 class="card-title">Student Name: </h5>
+                        <p class="card-text">@item.Student.FirstName, @item.Student.LastName</p>
+                        <h5 class="card-text"><b>Roll number :</b> @item.Student.RollNumber</h5>
+                        <p class="card-text"><b>Contact info :</b> @item.Student.Email, @item.Student.Phone</p>
+                        <div>
+                            <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@item.Id"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+                            <a class="btn btn-outline-warning btn-sm" asp-action="CreateOrEdit" asp-route-id="@item.Id"> <i class="fa fa-edit"></i> </a>
+                            <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id"> <i class="fa fa-trash"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
